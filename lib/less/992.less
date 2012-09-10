@@ -1,0 +1,67 @@
+.992up() {
+	body {
+		font-size: 18/16em;
+	}
+
+	// fixa tamanho para Desktop
+	.container, #autores, #descricao {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 960px;
+		position: relative;
+	}
+
+	#tectura p, header .container {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 890px;
+		width: 90%;
+	}
+
+	header {
+		img {
+			// bateu tamanho máximo da imagem, então fixa no layout
+			height: 510px;
+			width: 350px;
+		}
+
+		#logos {
+			height: 90px;
+		}
+
+		z-index: 0;
+	}
+
+	header:after {
+		background: #FF6633;
+		bottom: 0;
+		content: ' ';
+		right: 0;
+		height: 90px;
+		position: absolute;
+		width: 100%;
+		z-index: -10;
+	}
+
+	#descricao p {
+		font-size: 0.9em;
+	}
+
+	#conteudo ol {
+		font-size: 0.9em;
+	}
+
+	// IE 8 e IE 9
+	.ie {
+		footer {
+			ul li {
+				margin-bottom: 0;
+
+				a {
+					min-height: 0;
+					padding: 0.3em;
+				}
+			}
+		}
+	}
+}
