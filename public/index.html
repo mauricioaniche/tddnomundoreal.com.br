@@ -1,0 +1,321 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<html lang="pt-br" xmlns:og="http://ogp.me/ns#" itemscope itemtype="http://schema.org/Book">
+<head>
+    <meta charset="utf-8">
+    
+    <!-- IE -->
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Test-Driven Development: Teste e Design no Mundo Real</title>
+  
+    <meta name="description" content="Livro Test-Driven Development: Teste e Design no Mundo Real">
+
+	<!-- Nao suportamos IE6 ou IE7 -->
+	<!--[if lt IE 8]><script>location.href = 'ie.html';</script><![endif]-->
+
+	<!-- Fonte bacana do Google WebFonts -->
+	<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
+  
+	<!-- HTML5 shiv for IE 8 -->
+	<!--[if IE 8]><script>OLD_IE=true;'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})</script><![endif]-->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css?2" class="embed">
+ 
+ 	<!-- Aplica CSS sem media queries no IE8 -->
+	<!--[if IE 8]><link rel="stylesheet" href="css/ie8.css"><![endif]-->
+
+  	<!-- TODO favicon e apple-touch-icon -->
+</head>
+<!--[if lte IE 9]><body class="ie"><![endif]-->
+<!--[if !IE]><!--><body><!--<![endif]-->
+
+	<div class="cc-barra">
+		<div class="cc-container">
+			<a href="http://casadocodigo.com.br" class="cc-logo">
+				<img src="img/casa-do-codigo.png" alt="Editora Casa do Código">
+			</a>
+			<h1>Procurando mais livros de programação? <br>Conheça a 
+				<a href="http://casadocodigo.com.br">editora Casa do Código</a>.
+			</h1>
+		</div>
+	</div>
+
+    <header>
+    	<div class="container">
+	    	<p id=chamada>É hora de escrever código com qualidade!</p>
+	    	
+	    	<hgroup>
+	    		<h1>Test-Driven Development</h1>
+				<h2>Teste e Design no Mundo Real</h2>
+	    	</hgroup>
+	    	
+	    	<img src="img/capa-livro.jpg" alt="Capa do livro">
+
+	    	<div id=logos>
+	    		<a href="http://www.caelum.com.br">Caelum</a>
+	    	</div>
+	    	
+	    	<div class=compreja>
+		    	<a class="nicebutton" href="http://www.casadocodigo.com.br/products/tdd">Comprar o livro</a>
+	    	</div>
+    	</div>
+    </header>
+
+	<section id=descricao>
+
+		<div id=texto>
+			<p>
+				Por que não testamos software? Porquê é caro? Porquê é demorado? Porquê é chato? Testes automatizados são a solução para todos esses problemas. Aprenda a escrever um programa que testa seu programa de forma rápida, barata e produtiva, e aumente a qualidade do seu produto final.	
+			</p>
+			<p>
+
+				Neste livro, você aprenderá sobre TDD, uma das práticas ágeis de desenvolvimento de software mais populares. TDD faz o desenvolvedor escrever o teste antes mesmo de implementar o código. Essa simples inversão na maneira de se trabalhar, faz com o que o desenvolvedor escreva código mais testado, com menos bugs, e inclusive com mais qualidade. Seja profissional, teste seu software!
+			</p>
+		</div>
+		<div id=publico>
+			<h1>Para quem é o livro</h1>
+			<p>
+				
+				Esse livro é destinado a desenvolvedores que querem aprender a escrever testes de maneira eficiente,
+				e que desejam aprender a como melhorar ainda mais o código que produzem. Neste livro, utilizamos
+				Java para demonstrar os conceitos discutidos, mas você pode facilmente levar as discussões feitas
+				aqui para a sua linguagem de programação favorita. Mesmo que você já pratique TDD, tenho certeza
+				que aqui encontrará discussões interessantes sobre como a prática dá feedback sobre problemas
+				de acoplamento e coesão, bem como técnicas para escrever testes melhores e mais fáceis de 
+				serem mantidos.
+			</p>
+		</div>
+	</section>
+	
+	<section id=conteudo>
+		<h1 class=container>Conteúdo</h1>
+		
+		<ol>
+
+			<li>
+			Introdução
+			<ol>
+			   <li>Era uma vez um projeto sem testes...</li>
+			   <li>Por que devemos testar?</li>
+			   <li>Por que não testamos?</li>
+			   <li>Testes automatizados e TDD</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+
+			<li>
+			Testes de Unidade
+			<ol>
+			   <li>O que é um teste de unidade?</li>
+			   <li>Preciso mesmo escrevê-los?</li>
+			   <li>O Primeiro Teste de Unidade</li>
+			   <li>Continuando a testar</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			Introdução ao Test-Driven Development
+			<ol>
+			   <li>O problema dos números romanos</li>
+			   <li>O primeiro teste</li>
+			   <li>Refletindo sobre o assunto</li>
+			   <li>Quais as vantagens?</li>
+			   <li>Um pouco da histÃ³ria de TDD</li>
+			   <li>ConclusÃ£o</li>
+			</ol>
+			</li>
+			
+			<li>
+			Simplicidade e Baby Steps
+			
+			<ol>
+			   <li>O Problema do Cálculo de Salário</li>
+			   <li>Implementando da maneira mais simples possível</li>
+			   <li>Passos de Bebê (ou Baby Steps)</li>
+			   <li>Usando baby steps de maneira consciente</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			TDD e Design de Classes
+			<ol>
+			   <li>O Problema do Carrinho de Compras</li>
+			   <li>Testes que influenciam no design de classes</li>
+			   <li>Diferenças entre TDD e testes da maneira tradicional</li>
+			   <li>Testes como rascunho</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			   Qualidade no Código do Teste
+			<ol>
+			   <li>Repetição de código entre testes</li>
+			   <li>Nomenclatura dos testes</li>
+			   <li>Test Data Builders</li>
+			   <li>Testes Repetidos</li>
+			   <li>Escrevendo boas asserções</li>
+			   <li>Testando listas</li>
+			   <li>Separando as Classes de Teste</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			O Teste de Unidade e a Coesão
+			<ol>
+			   <li>Novamente o Problema do Cálculo de Salário</li>
+			   <li>Ouvindo o feedback dos testes</li>
+			   <li>Testes em métodos privados?</li>
+			   <li>Resolvendo o Problema da Calculadora de Salário</li>
+			   <li>O que olhar no teste em relação a coesão?</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			O Teste de Unidade e o Acoplamento
+			<ol>
+			   <li>O Problema da Nota Fiscal</li>
+			   <li>Mock Objects</li>
+			   <li>Dependências explícitas</li>
+			   <li>Ouvindo o feedback dos testes</li>
+			   <li>Classes estáveis</li>
+			   <li>Resolvendo o Problema da Nota Fiscal</li>
+			   <li>Testando métodos estáticos</li>
+			   <li>TDD e a constante criação de interfaces</li>
+			   <li>O que olhar no teste em relação ao acoplamento?</li>
+			   <li>Conclusão</li>
+			</ol>
+			</li>
+			
+			<li>
+			   TDD e o Encapsulamento
+			   <ol>
+			   <li>O Problema do Processador de Boleto</li>
+			   <li>Ouvindo o feedback dos testes</li>
+			   <li>Tell, Don't Ask e Lei de Demeter</li>
+			   <li>Resolvendo o Problema do Processador de Boletos</li>
+			   <li>O que olhar no teste em relação ao encapsulamento?</li>
+			   <li>Conclusão</li>
+			   </ol>
+			</li>
+			
+			<li>
+			Testes de Integração e TDD
+			   <ol>
+			   <li>Testes de unidade, integração e sistema</li>
+			   <li>Quando não usar mocks?</li>
+			   <li>Testes em DAOs</li>
+			   <li>Devo usar TDD em testes de integração?</li>
+			   <li>Testes em aplicações Web</li>
+			   <li>Conclusão</li>
+			   </ol>
+			</li>
+			
+			<li>
+			Quando não usar TDD?
+			   <ol>
+			   <li>Quando não praticar TDD?</li>
+			   <li>100% de cobertura de código?</li>
+			   <li>Devo testar códigos simples?</li>
+			   <li>Erros comuns durante a prática de TDD</li>
+			   <li>Como convencer seu chefe sobre TDD?</li>
+			   <li>TDD em Sistemas Legados</li>
+			   <li>Conclusão</li>
+			   </ol>
+			</li>
+			
+			<li>
+			E agora?
+			   <ol>
+			   <li>O que ler agora?</li>
+			   <li>Dificuldade no aprendizado</li>
+			   <li>Como interagir com outros praticantes?</li>
+			   <li>Conclusão Final</li>
+			  </ol>
+			</li>
+			
+			<li>
+			  Apêndice: Princípios SOLID
+				<ol>
+			   <li>Sintomas de Projetos de Classes em Degradação</li>
+			   <li>Princípios de Projeto de Classes</li>
+			   <li>Conclusão</li>
+			  </ol>
+			</li>
+		</ol>
+
+    	<div class=compreja>
+	    	<a class="nicebutton" href="http://www.casadocodigo.com.br/products/tdd">Comprar o livro</a>
+	    	<p>O livro também está disponível em PDF, MOBI e EPUB.</p>
+    	</div>
+	</section>
+
+	<div id=tectura>
+		<p><a href="http://groups.google.com/forum/?fromgroups#!forum/tdd-no-mundo-real">Continue a discussão no fórum do Google Groups junto com o autor!</a></p>
+	</div>
+
+	<section id=autores>
+		<h1>Sobre o Autor</h1>
+		
+		<div class=autor>
+			<h2>Mauricio Aniche</h2>
+			<img src="http://www.gravatar.com/avatar/77cc77ccdaf329705ce14a9d3ff1e8a8?s=90" alt="Mauricio Aniche">
+			<p>
+				
+				Mauricio é instrutor e desenvolvedor da Caelum, possui mais de 9 anos de experiência de desenvolvimento de softwares, 
+				tendo participado de projetos para grandes empresas nacionais e internacionais. 
+				Mauricio é também mestre em Ciência da Computação pela Universidade de São Paulo (USP) aonde pesquisa sobre TDD e sua 
+				influência no design de sistemas orientados a objetos. Atualmente é aluno de doutorado pelo mesmo instituto. 
+				Palestrante em eventos nacionais e internacionais, com destaque para sua apresentação no 1o Workshop Internacional 
+				sobre Test-Driven Development, localizado em Paris, no ano de 2010, Agile Brazil 2010, 2011 e 2012, e QCON SP 2010 e 2012. 
+				Mauricio gosta de discutir sobre TDD, melhores práticas e princípios de orientação a objetos, 
+				métodos ágeis de desenvolvimento de software e linguagens de programação.
+					
+			</p>
+		</div>
+		
+		<div id=falecom>
+			<p>Fale com o autor: <a href="mailto:mauricio.aniche@caelum.com.br">mauricio.aniche@caelum.com.br</a></p>
+			<p>Professor, quer usar o livro em sala de aula? Entre em contato.</p>
+		</div>
+	</section>
+
+	<footer>
+		<div class=container>
+	    	<hgroup>
+	    		<h1>Test-Driven Development</h1>
+				<h2>Teste e Design no Mundo Real</h2>
+	    	</hgroup>
+
+	    	<ul>
+	    		<li><a href="http://www.casadocodigo.com.br/products/tdd">Comprar impresso</a></li>
+	    		<li><a href="http://www.casadocodigo.com.br/products/tdd">Comprar ebook</a></li>
+	    		
+	    		
+	    		<li><a href="mailto:mauricio.aniche@caelum.com.br">Fale com o autor</a></li>
+	    		<li class=maior><a href="https://groups.google.com/forum/?fromgroups#!forum/tdd-no-mundo-real">Fórum de discussões</a></li>
+	    		
+	    		<li><a href="#conteudo">Conteúdo</a></li>
+	    		<li><a href="#publico">Para quem é o livro</a></li>
+	    		<li class=maior><a href="#autores">Sobre os autor</a></li>
+
+	    		<li><a id="versao" href="#">Forçar Site Desktop</a></li>
+	    	</ul>
+	    	
+	    	<div id=logos>
+	    		<a href="http://www.caelum.com.br">Caelum</a>
+	    	</div>
+	    	
+	    	<img src="img/capa-livro.jpg" alt="Capa do livro">
+		</div>
+	</footer>
+
+</body>
+</html>
