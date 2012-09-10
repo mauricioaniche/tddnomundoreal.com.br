@@ -710,7 +710,7 @@ header img {
   box-shadow: 0 0 5px #888;
 }
 header #logos {
-  background: #005a82;
+  background: #ee7725;
   text-align: center;
 }
 header #logos a {
@@ -777,7 +777,7 @@ iframe.twitter-share-button {
   visibility: visible;
 }
 #curso {
-  background: #005a82;
+  background: #ee7725;
   margin: 1.5em 0 0 0;
   width: 100%;
 }
@@ -844,7 +844,7 @@ iframe.twitter-share-button {
   font-size: 1.30em;
 }
 #outroscursos {
-  background: #005a82;
+  background: #ee7725;
   padding: 10px 0;
   text-align: center;
 }
@@ -946,7 +946,7 @@ section h1:before {
   margin: 0;
 }
 #conteudo ol a {
-  color: #005a82;
+  color: #ee7725;
 }
 #conteudo ol a:visited {
   color: #805070;
@@ -958,7 +958,7 @@ section h1:before {
   margin-top: 2em;
 }
 #tectura {
-  background: #005a82;
+  background: #ee7725;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -1013,7 +1013,7 @@ section h1:before {
   text-align: center;
 }
 #autores #falecom a {
-  color: #005a82;
+  color: #ee7725;
   word-wrap: break-word;
 }
 #autores #falecom a:hover {
@@ -1040,7 +1040,7 @@ section h1:before {
   width: 100% !important;
 }
 footer {
-  background: #005a82;
+  background: #ee7725;
   clear: both;
   margin: 0;
   padding: 1em 0;
@@ -1581,7 +1581,7 @@ footer #logos a[href='http://www.caelum.com.br'] {
     height: 90px;
   }
   header:after {
-    background: #FF6633;
+    background: #ee7725;
     bottom: 0;
     content: ' ';
     right: 0;
