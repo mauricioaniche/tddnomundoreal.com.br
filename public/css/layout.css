@@ -126,7 +126,7 @@ header #logos a[href='http://www.campus.com.br'] {
 }
 header #logos a[href='http://www.caelum.com.br'] {
   background: url(../img/logo-caelum.png) no-repeat;
-  width: 120px;
+  width: 130px;
 }
 .compreja {
   margin: 1.5em auto;
@@ -536,5 +536,5 @@ footer #logos a {
 }
 footer #logos a[href='http://www.caelum.com.br'] {
   background: url(../img/logo-caelum.png) no-repeat;
-  width: 120px;
+  width: 130px;
 }
