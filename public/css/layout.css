@@ -353,7 +353,7 @@ section h1:before {
   margin-top: 2em;
 }
 #tectura {
-  background: #005a82;
+  background: #ee7725;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -435,7 +435,7 @@ section h1:before {
   width: 100% !important;
 }
 footer {
-  background: #005a82;
+  background: #ee7725;
   clear: both;
   margin: 0;
   padding: 1em 0;
@@ -534,15 +534,7 @@ footer #logos a {
   margin: 5px 10px;
   text-indent: -999em;
 }
-footer #logos a[href='http://www.elsevier.com.br'] {
-  background-position: 0 0;
-  width: 70px;
-}
-footer #logos a[href='http://www.campus.com.br'] {
-  background-position: -80px -10px;
-  width: 70px;
-}
 footer #logos a[href='http://www.caelum.com.br'] {
-  background-position: -165px -10px;
+  background: url(../img/logo-caelum.png) no-repeat;
   width: 120px;
 }
