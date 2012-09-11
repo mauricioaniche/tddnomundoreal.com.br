@@ -730,7 +730,7 @@ header #logos a[href='http://www.campus.com.br'] {
   width: 70px;
 }
 header #logos a[href='http://www.caelum.com.br'] {
-  background-position: -165px -10px;
+  background: url(../img/logo-caelum.png) no-repeat;
   width: 120px;
 }
 .compreja {
@@ -958,7 +958,7 @@ section h1:before {
   margin-top: 2em;
 }
 #tectura {
-  background: #ee7725;
+  background: #005a82;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -1040,7 +1040,7 @@ section h1:before {
   width: 100% !important;
 }
 footer {
-  background: #ee7725;
+  background: #005a82;
   clear: both;
   margin: 0;
   padding: 1em 0;
